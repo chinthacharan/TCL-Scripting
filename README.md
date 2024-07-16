@@ -1,2 +1,2 @@
 # TCL-Scripting
-Everyday scripting challenge
+Scripting for beginners
