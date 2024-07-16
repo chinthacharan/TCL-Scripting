@@ -9,3 +9,5 @@ set myStr "A quick brown fox jumped over a brown lazy dog"
     puts "now it is ==>> $mystr"
  }
 
+#output :Match found in "A quick brown fox jumped over a brown lazy dog" and replacing
+#now it is ==>> A quick REPLACED fox jumped over a REPLACED lazy dog.
