@@ -16,3 +16,12 @@ puts "after linsert at position 3: $b\n"
 set b [lreplace $b 3 5 "AA" "BB"]
 puts "After lreplacing 3 positions with 2 values at position 3: $b\n"
 #output :After lreplacing 3 positions with 2 values at position 3: a b c AA BB f {g h} {ij k lm}
+
+#operations on list of list
+set jlist [list a b c [list k l m] p q [list r w]]
+puts $jlist
+#output :a b c {k l m} p q {r w}
+puts [lindex $jlst 3]
+#output :k l m
+puts [lindex [lindex $jlst 6] 1]
+#output :w
